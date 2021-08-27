@@ -1,0 +1,32 @@
+.article_body{
+    color: lightgoldenrodyellow ;
+}
+.article_header{
+    text-align: center;
+    margin-block-end: 1rem;
+}
+.article_title{
+    font-size: 15vw;
+}
+@media screen and (max-width: 359px){
+    .article_title{
+        font-size:2rem ;
+    }
+}
+.article_subtitle{
+    font-size: 1.5;
+    color: rgb(189, 182, 182);
+    margin-block-end: 2rem;
+}
+.article_date time {
+    color: rgb(189, 182, 182);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.article_content p{
+    text-indent: 2rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
